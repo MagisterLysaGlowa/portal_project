@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Tiny5&display=swap");
+
+.main-bg {
+  background-image: repeating-linear-gradient(
+    45deg,
+    #17888e 0,
+    #17888e 0.5px,
+    transparent 0,
+    transparent 50%
+  );
+  background-size: 100px 100px;
+  background-color: #080808;
+}
